@@ -56,6 +56,12 @@ Obs: verifique o arquivo completo samba.conf aqui no github
 Comando: 
 $ testparm
 
+9) Adicionar o usuario ao samba
+
+Comando:
+$ sudo smbpasswd -a NomeDoUsuário
+
+
 9) Reiniar o Samba
 
 Comando:
@@ -69,3 +75,5 @@ $ sudo systemctl status smbd
 \\192.168.56.104\arquivos   
 
 Obs: Troquem o IP pelo IP da VM de vocês
+
+
