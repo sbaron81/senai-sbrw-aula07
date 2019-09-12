@@ -30,7 +30,7 @@ $ sudo apt-get install samba
 5) Verificar se o samba foi instalado
 
 Comando:
-$ sudo systemctl status samba
+$ sudo systemctl status smbd
 
 6) Configurar o Samba
 
