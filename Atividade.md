@@ -32,14 +32,26 @@ $ sudo apt-get install samba
 Comando:
 $ sudo systemctl status smbd
 
-6) Configurar o Samba
+6) Criar o diretório que desejamos compartilhar
+
+Comandos:
+$ sudo mkdir /arquivos
+$ sudo chmod 777 /arquivos
+
+7) Configurar o Samba
 
 Comando:
 $ sudo vi /etc/samba.conf
 
-Obs: verifique o arquivo exemplo samba.conf aqui no github
+Obs: verifique o arquivo completo samba.conf aqui no github
 
-7) Validar se as configurações estão corretas
+[arquivos]
+     comment = Arquivos temporarios
+     path = /arquivos
+     guest ok = yes
+     read only = on
+
+8) Validar se as configurações estão corretas
 
 Comando: 
 $ testparm
