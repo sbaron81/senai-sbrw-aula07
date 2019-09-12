@@ -62,13 +62,13 @@ Comando:
 $ sudo smbpasswd -a NomeDoUsuário
 
 
-9) Reiniar o Samba
+10) Reiniar o Samba
 
 Comando:
 $ sudo systemctl restart smbd
 $ sudo systemctl status smbd
 
-10) Testar o acesso ao compartilhamento
+11) Testar o acesso ao compartilhamento
 
 - Da máquina de vocês abram o Windows Explorer e digitem
 
