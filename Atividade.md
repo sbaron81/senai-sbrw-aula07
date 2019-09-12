@@ -32,5 +32,16 @@ $ sudo apt-get install samba
 Comando:
 $ sudo systemctl status samba
 
-6)
+6) Configurar o Samba
+
+Comando:
+$ sudo vi /etc/samba.conf
+
+Obs: verifique o arquivo exemplo samba.conf aqui no github
+
+7) Validar se as configurações estão corretas
+
+Comando: 
+$ testparm
+
 
