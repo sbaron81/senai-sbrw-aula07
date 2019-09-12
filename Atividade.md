@@ -56,4 +56,16 @@ Obs: verifique o arquivo completo samba.conf aqui no github
 Comando: 
 $ testparm
 
+9) Reiniar o Samba
 
+Comando:
+$ sudo systemctl restart smbd
+$ sudo systemctl status smbd
+
+10) Testar o acesso ao compartilhamento
+
+- Da máquina de vocês abram o Windows Explorer e digitem
+
+\\192.168.56.104\arquivos   
+
+Obs: Troquem o IP pelo IP da VM de vocês
