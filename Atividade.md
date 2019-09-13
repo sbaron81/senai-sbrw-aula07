@@ -1,7 +1,7 @@
-## Lista de atividades
+# Atividade
 
 1) Criar uma VM com Ubuntu Server
-
+---
 
 CPU: 2
 Mem: 2GB
