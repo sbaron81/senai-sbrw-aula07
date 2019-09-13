@@ -50,14 +50,11 @@ $ sudo mkdir /arquivos
 $ sudo chmod 777 /arquivos
 ```
 
-7) Configurar o Samba
+7) Configurar o Samba [samba.conf]
 
-Comando:
-```
-$ sudo vi /etc/samba.conf
-```
+Utilize um editor, como o nano ou vi, por exemplo, e configure o arquivo /etc/samba/smb.conf conforme abaixo:
 
-Obs: verifique o arquivo completo [samba.conf] aqui no github
+
 ```
 [global]
       netbios name = UbuntuServer
@@ -77,29 +74,37 @@ Obs: verifique o arquivo completo [samba.conf] aqui no github
 8) Validar se as configurações estão corretas
 
 Comando: 
+```
 $ testparm
+```
 
 9) Adicionar o usuario ao samba
 
 Comando:
+```
 $ sudo smbpasswd -a NomeDoUsuário
+```
 
 Obs: esse usuário deve existir no linux. É possível criar mais usuários, só precisam criar no linux primeiro
 Exemplo: 
+```
 $ sudo adduser usuario2
 $ sudo smbpasswd -a usuario2
-
+```
 10) Reiniar o Samba
 
 Comando:
+```
 $ sudo systemctl restart smbd
 $ sudo systemctl status smbd
+```
 
 11) Testar o acesso ao compartilhamento
 
 - Da máquina de vocês abram o Windows Explorer e digitem
-
+```
 \\192.168.56.104\arquivos   
+```
 
 Obs: Troquem o IP pelo IP da VM de vocês
 
