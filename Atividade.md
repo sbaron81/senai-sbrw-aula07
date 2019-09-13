@@ -20,6 +20,7 @@ $ ip add
 ```
 
 - Anotem os dois enderços IPs
+- De agora em diante, podem acessar a VM atráves do IP da rede host-only via ssh ([putty])
 
 
 #### 3) Atualizar a lista de pacotes do Ubuntu
@@ -111,3 +112,4 @@ Obs: Troquem o IP pelo IP da VM de vocês
 
 
   [samba.conf]: https://github.com/sbaron81/senai-sbrw-aula07/blob/master/smb.conf
+  [putty]: https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
