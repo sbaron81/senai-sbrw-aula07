@@ -61,6 +61,10 @@ $ testparm
 Comando:
 $ sudo smbpasswd -a NomeDoUsuário
 
+Obs: esse usuário deve existir no linux. É possível criar mais usuários, só precisam criar no linux primeiro
+Exemplo: 
+$ sudo adduser usuario2
+$ sudo smbpasswd -a usuario2
 
 10) Reiniar o Samba
 
