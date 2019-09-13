@@ -6,8 +6,10 @@
 - Mem: 2GB
 - Disco: 20GB
 - Rede: 2 placas 
-       -- NAT 
-       -- Host-only
+
+       - NAT 
+       - Host-only
+
 Obs: Deverá ter conectividade a internet a ao windows de vocês
 
 #### 2) Acessar a console e verificar o endereço IP
