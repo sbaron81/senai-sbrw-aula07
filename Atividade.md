@@ -1,7 +1,7 @@
 # Atividade
 
-1) Criar uma VM com Ubuntu Server
----
+### 1) Criar uma VM com Ubuntu Server
+
 
 CPU: 2
 Mem: 2GB
@@ -11,7 +11,7 @@ Rede: 2 placas
        - Host-only
 Obs: Deverá ter conectividade a internet a ao windows de vocês
 
-2) Acessar a console e verificar o endereço IP
+#### 2) Acessar a console e verificar o endereço IP
 
 Comando:
 ```
