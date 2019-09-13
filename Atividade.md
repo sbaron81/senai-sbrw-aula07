@@ -1,4 +1,4 @@
-Lista de atividades
+## Lista de atividades
 
 1) Criar uma VM com Ubuntu Server
 
@@ -13,9 +13,11 @@ Obs: Deverá ter conectividade a internet a ao windows de vocês
 2) Acessar a console e verificar o endereço IP
 
 Comando:
+```
 $ ip add
 
 - Anotem os dois enderços IPs
+```
 
 3) Atualizar a lista de pacotes do Ubuntu
 
