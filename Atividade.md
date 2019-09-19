@@ -65,11 +65,11 @@ Utilize um editor, como o nano ou vi, por exemplo, e configure o arquivo /etc/sa
      map to guest = bad user
 
 
-[#### arquivos]
+[arquivos]
      comment = Arquivos temporarios
      path = /arquivos
      guest ok = yes
-     read only = on
+     read only = no
 ```
 
 #### 8) Validar se as configurações estão corretas
